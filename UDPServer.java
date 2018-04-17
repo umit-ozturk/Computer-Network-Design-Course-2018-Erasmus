@@ -34,6 +34,10 @@ class UDPServer
                   
                   recv_port = receive_packet.getPort();
                   
+                  System.out.println("Type Something (q or Q to quit): ");
+        
+                  String data = infromuser.readLine();                  
+                  
                   if (data.equals("q") || data.equals("Q"))
                   break;
                   
