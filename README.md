@@ -5,6 +5,29 @@ Note: port 12345 is special in the network laboratory workstations because it is
 
 **Usage**
 
+On Terminal;
+
+
+```
+	java UDPServer
+```
+
+
+An Other Terminal;
+
+```
+	java UDPClient
+```
+
 ![Tcpdump Packet Catching](/images/tcpdump.png)
+
+
+
+In the above picture, the right terminal is UDPClient, the left terminal is UDPServer, the following terminal is the tcpdump program.
+The packet sent from the client program falls on the screen of the server program. Look at Tcpdump in detail.
+
+
+In the picture below, we are monitoring the interface lo0 with wireshark. (lo0 interface for macOS systems).All details about the interface being sniffed are visible.
+
 ![Wireshark Sniffing](/images/wireshark.png)
 
