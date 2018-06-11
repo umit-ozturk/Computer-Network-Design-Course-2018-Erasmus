@@ -16,7 +16,7 @@ class HeavyReceiver
          
          DatagramSocket server_socket = new DatagramSocket(6000);
          
-         System.out.println ("UDPServer Waiting for client on port 6000");
+         System.out.println ("UDPServer Waiting for client on port 5000");
          
               
          while(true)
